@@ -1,0 +1,37 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- PoSym Badge - Symbiosis symbol -->
+  <defs>
+    <linearGradient id="posymGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00E5FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- DNA Helix meets Blockchain Node -->
+  <g transform="translate(20, 20)">
+    <!-- Left helix strand -->
+    <path d="M -8,-12 Q -8,-6 -4,0 Q -8,6 -8,12" 
+          stroke="url(#posymGradient)" 
+          stroke-width="2" 
+          fill="none"/>
+    <!-- Right helix strand -->
+    <path d="M 8,-12 Q 8,-6 4,0 Q 8,6 8,12" 
+          stroke="url(#posymGradient)" 
+          stroke-width="2" 
+          fill="none"/>
+    <!-- Connecting bars -->
+    <line x1="-6" y1="-8" x2="6" y2="-8" stroke="url(#posymGradient)" stroke-width="1.5"/>
+    <line x1="-6" y1="0" x2="6" y2="0" stroke="url(#posymGradient)" stroke-width="1.5"/>
+    <line x1="-6" y1="8" x2="6" y2="8" stroke="url(#posymGradient)" stroke-width="1.5"/>
+    <!-- Node circles -->
+    <circle cx="-6" cy="-8" r="2" fill="#10B981"/>
+    <circle cx="6" cy="-8" r="2" fill="#00E5FF"/>
+    <circle cx="-6" cy="0" r="2" fill="#00E5FF"/>
+    <circle cx="6" cy="0" r="2" fill="#10B981"/>
+    <circle cx="-6" cy="8" r="2" fill="#10B981"/>
+    <circle cx="6" cy="8" r="2" fill="#00E5FF"/>
+  </g>
+  
+  <!-- PoSym Text -->
+  <text x="45" y="25" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="600" fill="url(#posymGradient)">PoSym™</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- TWIX Chain Logo - White version for dark backgrounds -->
+  <defs>
+    <filter id="glowWhite">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Hexagonal Badge -->
+  <g transform="translate(30, 30)">
+    <path d="M 0,-25 L 21.65,-12.5 L 21.65,12.5 L 0,25 L -21.65,12.5 L -21.65,-12.5 Z" 
+          stroke="#FFFFFF" 
+          stroke-width="2" 
+          fill="none"
+          filter="url(#glowWhite)"/>
+    
+    <!-- Energy/Lightning Symbol -->
+    <path d="M 5,-15 L -5,-5 L 2,-5 L -5,15 L 5,5 L -2,5 Z" 
+          fill="#FFFFFF"
+          filter="url(#glowWhite)"/>
+    
+    <!-- Atom orbits -->
+    <ellipse cx="0" cy="0" rx="18" ry="8" 
+             stroke="#FFFFFF" 
+             stroke-width="1" 
+             fill="none" 
+             opacity="0.5"
+             transform="rotate(60)"/>
+    <ellipse cx="0" cy="0" rx="18" ry="8" 
+             stroke="#FFFFFF" 
+             stroke-width="1" 
+             fill="none" 
+             opacity="0.5"
+             transform="rotate(-60)"/>
+  </g>
+  
+  <!-- TWIX Text -->
+  <text x="65" y="35" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">TWIX</text>
+  
+  <!-- CHAIN Text -->
+  <text x="65" y="50" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="400" fill="#FFFFFF" opacity="0.8">CHAIN</text>
+</svg>
